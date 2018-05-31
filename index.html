@@ -1,0 +1,94 @@
+<html>
+
+<head>
+	<meta charset="utf-8">
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=no">
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+
+	<link rel="stylesheet" href="style.css">
+	<!-- Load icon library -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+</head>
+
+<body>
+	<div class="container">
+
+	<section id="dataSection">
+
+		<div class="container">
+			<h2>OMDb Movies</h2>
+			<div class="imdb">
+				<span class="choose">Select Title or Id:</span>
+				<select id="myselect">
+				    <option value="1">By Title</option>
+				    <option value="2">By Id</option>
+				</select>
+			</div>
+ 			 <div class="form">
+					 <div class="form-group">
+							<input type="title" class="col-md-6 col-lg-12 form-control" id="title" placeholder="Enter Title or ID">
+					 </div>
+					 <button type="submit" class="btn btn-primary mb-2">Search</button>		 
+			</div>
+		</div>
+	</section>
+	<section class="Result">
+		<p id="result"></p>
+	</section>
+
+	<div class="Details">
+			<h1 id="Title"></h1>
+			<h3 id="ReleasedDate"></h3>
+			<div class="card" style="width:200px" "height: 200px;">
+			  <img class="card-img-top" alt="Card image">
+			  <div class="card-body">
+			     <h5 class="card-title"></h5>
+   					
+			  </div>
+			</div>
+
+			<div class="moreDetails">
+				<section>
+					<div class="det">
+					</div>
+				</section>
+			</div>
+		<!-- <section class="Ratings">
+		
+		  
+		  <button class="btn btn-primary mb-2 collapseButton" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+		  	View Other Ratings
+		  </button>
+		 
+		 <div class="collapse" id="collapseExample">
+			 <div id="rt">
+			 </div>	
+		 </div>
+	 
+	 	</section> -->
+
+	</div>
+</div>
+</body>
+
+
+
+<!-- External Scripts -->
+
+
+
+
+
+<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
+ <script type="text/javascript" src="index.js"></script> 
+
+</html>

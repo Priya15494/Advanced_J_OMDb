@@ -1,0 +1,172 @@
+.container{
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+}
+h1{
+	margin-top: 1%;
+	font-size: 1.5em;
+}
+
+h2{
+  background: black;
+  width: 100%;
+  color: white;
+  height: 8%;
+  margin-top:1%;
+  padding-top: 0.5%;
+  padding-bottom: 3%;
+  padding-left: 2%;
+  font-size:1.5em;
+}
+
+h3{
+	font-size: 1em;
+}
+
+.imdb{
+	margin-top: 2%;
+}
+
+
+.form{
+	margin-top: 3%;
+}
+
+.form-group .form-control{
+
+  width:60%;
+}
+
+
+.form-group .btn{
+  float: right;
+  margin-top:0%;
+}
+
+.choose{
+	font-weight:bold;
+}
+
+.Result{
+	font-weight: bold;
+	margin-left: 2%;
+	font-size: 1.5em;
+	margin-top: 1%;
+}
+.Details{
+	margin-left: 2%;
+	margin-top: 0%;
+	
+}
+
+.card{
+	float: left;
+}
+
+.moreDetails{
+	
+	width:79%;
+	height: auto;
+	font-size: 1em;
+	margin-left: 19%;
+	border: 1px solid #DCDCDC;
+	margin-top: 0%;
+	border-radius: 1.5%;
+}
+
+
+
+
+@media screen and (min-width: 992px) and (max-width: 1088px){
+
+.moreDetails{
+	
+	width:65%;
+	
+	font-size: 1em;
+	margin-left: 26%;
+	border: 1px solid #DCDCDC;
+	margin-top: 0%;
+	border-radius: 1.5%;
+}
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px){
+
+.moreDetails{
+	
+	width:70%;
+	
+	font-size: 1em;
+	margin-left: 30%;
+	border: 1px solid #DCDCDC;
+	margin-top: 0%;
+	border-radius: 1.5%;
+}
+}
+
+@media screen and (min-width: 600px) and (max-width: 767px){
+	.form-group .form-control{
+
+  width:70%;
+}
+
+
+.moreDetails{
+	
+	width:60%;
+	
+	font-size: 1em;
+	margin-left: 40%;
+	border: 1px solid #DCDCDC;
+	margin-top: 0%;
+
+	border-radius: 1.5%;
+}
+.card{
+	width: 20%;
+}
+p{
+	font-size: 0.5em;
+}
+
+.h1{
+	font-size: 1em;
+}
+.h2{
+	font-size: 1em;
+}
+}
+
+@media screen and (min-width: 200px) and (max-width: 599px){
+
+
+.form-group .form-control{
+
+  width:75%;
+}
+
+
+.moreDetails{
+	
+	width:80%;
+	height: auto;
+	font-size: 1em;
+	margin-left:0%;
+	border: 1px solid #DCDCDC;
+	margin-top: 0%;
+	float: left;
+	border-radius: 1.5%;
+}
+.card{
+	width: 300px;
+}
+p{
+	font-size: 0.5em;
+}
+
+.h1{
+	font-size: 1em;
+}
+}
